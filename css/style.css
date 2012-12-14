@@ -1,4 +1,3 @@
-
 body {
 	width:500px;
 	margin:auto;
@@ -69,6 +68,7 @@ body {
 
 .buttkey {
 	width:35px;
+	margin-bottom:3px;
 }
 .buttkey:disabled {
 	background-color: #FFD700;
