@@ -29,6 +29,8 @@ if($result== -1){
 ?>
 <div class="input_area">
 <?php
+
+// next task: take this block of code to main class and call from there
 for($i=0; $i<$word_size; $i++){
 	$g="";
 	if(isset($guessed_char)){
@@ -43,6 +45,8 @@ for($i=0; $i<$word_size; $i++){
 </div>
 <div class="keyboard">
 <?php
+
+// next task: take this block of code to main class and call from there
 $alphas = range('A', 'Z');
 foreach($alphas as $char){
 $dbl = "";
